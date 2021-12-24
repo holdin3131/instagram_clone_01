@@ -1,0 +1,74 @@
+
+.icon {
+  width: 7%;
+
+
+}
+#insta_main{
+  display: flex;
+  flex-direction: column;
+
+
+}
+#insta_main_top{
+  /*height: 100px;*/
+  margin : 1% 5%;
+  /*margin:auto;*/
+  display : flex;
+  justify-content: space-between;
+  align-items : center;
+}
+#insta_main_top #logo{
+width: 40%;
+
+}
+
+#insta_story_line{
+  height :120px;
+  padding-top: 10px;
+  padding-bottom: ;
+  background-color: whitesmoke;
+
+}
+
+.story_line_item{
+
+  display: flex;
+flex-direction: row;
+
+}
+
+.items{
+  height: 100px;
+  margin-left: 15px;
+  margin-right: 15px;
+  text-align: center;
+}
+.items>img{
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  border: 1px darkgrey solid;
+}
+.items>p{
+  margin-top: 0px;
+}
+
+
+#insta_user_peed_top{
+  height: 50px;
+
+
+}
+
+#insta_user_peed_img{
+
+}
+
+#insta_user_peed_bottom{
+
+}
+
+#insta_main_bottom{
+height:10%;
+}
