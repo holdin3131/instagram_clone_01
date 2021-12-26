@@ -141,11 +141,21 @@ display: flex;
   font-size: 1.3rem;
 
 }
+#margin_pre_main_bttom>p{
+  margin:4vh 0;
+}
 #insta_main_bottom{
+  background-color: white;
   border-top: 0.1vh solid grey;
+  position: fixed;
+  bottom : 0;
+  width: 100%;
+
+
 }
 #insta_main_bottom #bottom_icons{
   margin : 2vh 5vw;
   display: flex;
   justify-content: space-between;
+
 }
