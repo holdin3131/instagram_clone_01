@@ -56,15 +56,40 @@
 
 
 #insta_user_peed_top{
-  height: 50px;
-
+margin : 1% 3%;
+  display: flex;
+flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 
 }
+#insta_user_peed_top>img{
+  width: 5%;
+  height: 5%;
 
+}
+#insta_user_peed_top #user{
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+}
+#insta_user_peed_top #user>img{
+  width :11%;
+  border-radius: 100%;
+  border: solid
+}
+#insta_user_peed_top #user>h1{
+  margin-left: 4%;
+}
 #insta_user_peed_img{
 
+  display : flex;
+  align-items: center;
+  justify-content: center;
 }
-
+#insta_user_peed_img>img{
+  width: 100%;
+}
 #insta_user_peed_bottom{
 
 }
