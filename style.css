@@ -63,17 +63,32 @@
     flex-direction: row;
 
   }
-  #sub_container #container_item{
+  #sub_container #container_title > p{
+    margin-right: 30px;
+    font-weight: bold;
+  }
+  #sub_container .container_item{
     display: flex;
     flex-direction: row;
+    align-items: center;
+    margin : 10px 0;
   }
-  #sub_container #container_item > img{
+  #sub_container .container_item > img{
     width:30px;
     height: 30px;
     border-radius: 100px;
     border : 1px solid grey
   }
-
+  #sub_container .container_item .reco_user > p{
+    margin: 0px 5px;
+    font-weight: bold;
+    margin-right: 32px;
+  }
+  #sub_container .container_item > p{
+    margin: 0px 5px;
+    color :blue;
+    font-weight: bold;
+  }
   #story_peed {
     max-width: 400px;
 
@@ -225,6 +240,12 @@ display: flex;
 }
 
 @media screen and (max-width: 860px){
+  #sub_container{
+    display: none;
+  }
+  #insta_main_top_desktop{
+    display:none;
+  }
 body{
 
   margin : auto;
@@ -258,7 +279,7 @@ body{
 
 }
 #insta_main_top #logo{
-  width: 30vw;
+  width: 20vw;
 
 }
 /*스토리 피드 id값은 헤더메뉴와
